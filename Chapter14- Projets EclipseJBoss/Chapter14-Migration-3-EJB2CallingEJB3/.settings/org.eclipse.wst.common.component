@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Chapter14-Migration-3-EJB2CallingEJB3">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="Chapter14-Migration-3-EJB2CallingEJB3-EJB3.jar" deploy-path="/" handle="module:/resource/Chapter14-Migration-3-EJB2CallingEJB3-EJB3/Chapter14-Migration-3-EJB2CallingEJB3-EJB3">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Chapter14-Migration-3-EJB2CallingEJB3-EJB2.jar" deploy-path="/" handle="module:/resource/Chapter14-Migration-3-EJB2CallingEJB3-EJB2/Chapter14-Migration-3-EJB2CallingEJB3-EJB2">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

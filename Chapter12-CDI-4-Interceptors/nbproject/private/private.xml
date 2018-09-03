@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/web/item.xhtml</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/src/java/be/businesstraining/interceptor/AuditInterceptor.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/web/WEB-INF/beans.xml</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/src/java/be/businesstraining/service/Item.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/src/java/be/businesstraining/service/ItemServiceBean.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/web/Creation-Pool-et-DataSource.txt</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/web/index.html</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/src/java/be/businesstraining/interceptor/Logging.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/src/java/be/businesstraining/interceptor/LoggingInterceptor.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/src/java/be/businesstraining/interceptor/Audit.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/src/java/be/businesstraining/service/ItemBean.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-4-Interceptors/src/java/be/businesstraining/service/History.java</file>
+        </group>
+    </open-files>
+</project-private>

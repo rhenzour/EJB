@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/src/java/be/businesstraining/backing/TranslationBackingBean.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/web/WEB-INF/faces-config.xml</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/web/WEB-INF/beans.xml</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/web/index.html</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/src/java/be/businesstraining/service/EnglishTranslateService.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/src/java/be/businesstraining/qualifier/English.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/src/java/be/businesstraining/service/FrenchTranslateService.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/web/translate.xhtml</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/src/java/be/businesstraining/qualifier/Spanish.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/src/java/be/businesstraining/service/TranslateService.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/src/java/be/businesstraining/qualifier/French.java</file>
+            <file>file:/C:/Users/Mohamed/Documents/NetBeansProjects/Chapter12-CDI-2-JSF-Injection/src/java/be/businesstraining/service/SpanishTranslateService.java</file>
+        </group>
+    </open-files>
+</project-private>

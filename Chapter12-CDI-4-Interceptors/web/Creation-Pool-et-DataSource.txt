@@ -1,0 +1,22 @@
+- Créer d'abord la base de données cdiinterceptorsdb (sous MySQL Workbench)
+
+Création du pool de connexions sur la base de données greeterdb
+===============================================================
+- Assurez-vous que Glassfish soit démarré, sinon le démarrer
+- Lancer une console dos shell avec la touche WINDOWS-R puis tapez cmd
+
+- Se déplacer sous votre %GLASSFISH_HOME%\bin
+- Taper la commande suivante pour créer le pool cdiinterceptorspool sur la base de données cdiinterceptorsdb
+  asadmin create-jdbc-connection-pool --datasourceclassname com.mysql.jdbc.jdbc2.optional.MysqlDataSource --property user=root:password=password:DatabaseName=cdiinterceptorsdb:ServerName=localhost:port=3306 cdiinterceptorspool
+- Vérifer le bon fonctionnement du pool en le pingant
+  asadmin ping-connection-pool cdiinterceptorspool
+
+Création de la datasource jdbc/cdiinterceptorsds
+===================================
+- Toujours sous le dos shell et dans %GLASSFISH_HOME%\bin, lancer la commande
+asadmin create-jdbc-resource  --connectionpoolid cdiinterceptorspool jdbc/cdiinterceptorsds
+
+VERIFICATIONS
+=============
+Vérifier que le pool et la datasource ont été bien crées en visualisant les ressources JDBC du serveur Glassfish.
+Il est également possible de vérifier les ressources à partir de la console Web d'administration de Glassfish.

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+    <title>CDI-interceptors</title>
+</h:head>
+<h:body>
+    <h:messages />
+    <h:form id="item_form">
+        <h:outputLabel value="Add:" for="nameInput" />
+        <!-- Enter a name and click Add to see CDI Interceptors in action -->
+        <h:inputText id="nameInput" value="#{itemBean.name}" />
+        <h:commandButton action="#{itemBean.add}" id="addName" value="add" />
+
+        <h:dataTable value="#{itemBean.items}" var="item" rendered="#{not empty itemBean.items}">
+            <h:column>
+                <f:facet name="header">
+                    <h:outputText value="Item table" />
+                </f:facet>
+                <h:outputText value="#{item.name}"></h:outputText>
+            </h:column>
+        </h:dataTable>
+
+        <h:dataTable value="#{itemBean.itemHistory}" var="item" rendered="#{not empty itemBean.itemHistory}">
+            <h:column>
+                <f:facet name="header">
+                    <h:outputText value="Method invocation history" />
+                </f:facet>
+                <h:outputText value="#{item}"></h:outputText>
+            </h:column>
+        </h:dataTable>
+    </h:form>
+
+</h:body>
+</html>
